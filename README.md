@@ -1,10 +1,10 @@
 # Curso Tech Academy (StartSe)
 ## Modelo de Portfólio 
-### Clique <a href="https://antoniolmcandido.github.io/tech-academy-portfolio/">Aqui e veja a página</a>
+### Clique <a href="https://antoniolmcandido.github.io/tech-academy-portfolio/">Aqui</a> e veja a página
 
 Tecnologias utilizadas:
 <li>HTML e CSS</li><br>
 Componentes:
 <li>Media Queries</li>
-<li>Animaçõess</li>
+<li>Animações</li>
 <li>Pseudo Elementos</li>

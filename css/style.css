@@ -83,9 +83,11 @@ p {
 #presentation h1:nth-child(1) {
     animation-delay: 1s;
 }
+
 #presentation h1:nth-child(2) {
     animation-delay: 2s;
 }
+
 #presentation h1:nth-child(3) {
     animation: text_reveal_name .5s ease forwards;
     animation-delay: 3s;
@@ -125,9 +127,11 @@ p {
 #presentation h1:nth-child(1) span {
     animation-delay: .5s;
 }
+
 #presentation h1:nth-child(2) span {
     animation-delay: 1.5s;
 }
+
 #presentation h1:nth-child(3) span {
     animation-delay: 2.5s;
 }
@@ -144,13 +148,21 @@ p {
     z-index: -1;
 }
 
-.bg {
-    background-image: linear-gradient(135deg, #f0743f, #d43328, #726cbc, #0d0f0e, #15122e);
-    position: relative;
-    
+/* Seção de Portfólio */
+
+/*#portfolio .portfolio {
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+}*/
+
+.background {
+    background-image: linear-gradient(135deg, #ffc400, #94342d, #726cbc, #0d0f0e, #15122e);
+    position: relative;    
 }
 
-.bg::after {
+.background::after {
     content: '';
     position: absolute;
     top: 0;
@@ -160,15 +172,6 @@ p {
     background-image: linear-gradient(45deg, #000, #0c0c0c);
     opacity: 0.5;
 }
-
-/* Seção de Portfólio */
-
-/*#portfolio .portfolio {
-    flex-direction: column;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 100px 0;
-}*/
 
 #portfolio .portfolio-header {
     margin-bottom: 50px;
@@ -201,7 +204,7 @@ p {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    background-image: linear-gradient(60deg, #0a067d 0%, #002345 100%);
+    background-image: linear-gradient(60deg, #2824a7 0%, #002345 100%);
     color: white;
 }
 

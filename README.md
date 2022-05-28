@@ -4,6 +4,7 @@
 
 Tecnologias utilizadas:
 <li>HTML e CSS</li>
+<br>
 
 Componentes:
 <li>Media Queries</li>
